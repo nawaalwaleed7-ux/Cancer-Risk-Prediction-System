@@ -1,122 +1,43 @@
-# Cancer Risk Prediction System using Machine Learning
+# 🩺 Cancer Risk Prediction System
 
-## Project Overview
-
-The Cancer Risk Prediction System is a machine learning-based application that predicts a patient's cancer risk level (Low, Moderate, or High) using health and medical information.
-
-The project includes data preprocessing, model training, evaluation, visualization, and a Streamlit web application for real-time prediction.
-
----
+## Overview
+This project is a machine learning-based web application that predicts a patient's cancer risk using health-related features. It was developed as an academic project for learning data analysis, machine learning, and web application development.
 
 ## Features
-
-- Data preprocessing
-- Exploratory Data Analysis (EDA)
-- Multiple Machine Learning models
-- Model comparison
-- Data visualization
-- Interactive Streamlit web application
-- Cancer risk prediction
-
----
+- Predicts cancer risk from patient information
+- Interactive web interface using Streamlit
+- Data preprocessing and model training
+- Performance evaluation using multiple machine learning models
 
 ## Technologies Used
-
 - Python
+- Streamlit
+- Scikit-learn
 - Pandas
 - NumPy
-- Scikit-learn
-- Matplotlib
-- Streamlit
 - Joblib
 
----
-
 ## Machine Learning Models
-
 - Logistic Regression
 - Random Forest
 - Support Vector Machine (SVM)
 
-Best Performing Model:
-**Logistic Regression (80.83% Accuracy)**
+## How to Run
 
----
-
-## Project Structure
-
-```
-Cancer_Risk_Prediction/
-│
-├── data/
-│   ├── raw/
-│   └── processed/
-│
-├── models/
-│
-├── outputs/
-│   └── figures/
-│
-├── src/
-│   ├── eda.py
-│   ├── preprocessor.py
-│   ├── train_models.py
-│   ├── evaluate_models.py
-│   └── visualize_results.py
-│
-├── app.py
-├── requirements.txt
-└── README.md
-```
-
----
-
-## Installation
-
-Clone the repository
-
-```bash
-git clone <repository-url>
-```
-
-Install dependencies
+1. Clone the repository
+2. Install the required packages:
 
 ```bash
 pip install -r requirements.txt
 ```
 
-Run the Streamlit application
+3. Run the application:
 
 ```bash
 streamlit run app.py
 ```
 
----
-
-## Results
-
-| Model | Accuracy |
-|--------|----------|
-| Logistic Regression | 80.83% |
-| Random Forest | 73.33% |
-| SVM | 80.00% |
-
----
-
-## Future Improvements
-
-- Hyperparameter tuning
-- Larger dataset
-- Deep Learning models
-- Explainable AI (SHAP)
-- Cloud deployment
-
----
-
 ## Author
+Nawal Waleed
+BS Bioinformatics Student
 
-**Nawal Waleed**
-
-Bachelor's Project
-
-Machine Learning
