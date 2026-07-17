@@ -135,7 +135,8 @@ pip install -r requirements.txt
 streamlit run app.py
 
 ---
-# 📂 Project Structure
+
+@# 📂 Project Structure
 
 ```
 Cancer-Risk-Prediction-System
