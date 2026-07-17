@@ -133,11 +133,11 @@ pip install -r requirements.txt
 
 ```bash
 streamlit run app.py
+```
 
 ---
 
-
-## 📂 Project Structure
+# 📂 Project Structure
 
 ```
 Cancer-Risk-Prediction-System
@@ -158,7 +158,9 @@ Cancer-Risk-Prediction-System
 ├── Logistic_Regression_CM.png
 ├── Random_Forest_CM.png
 └── SVM_CM.png
+```
 
+---
 
 # 🎯 Future Improvements
 
@@ -169,6 +171,7 @@ Cancer-Risk-Prediction-System
 - Add user authentication.
 - Generate downloadable prediction reports.
 
+---
 
 # 👩‍💻 Author
 
@@ -184,6 +187,7 @@ https://github.com/nawaalwaleed7-ux
 LinkedIn:
 https://www.linkedin.com/in/nawalwaleed/
 
+---
 
 ## ⭐ If you found this project useful, consider giving it a star on GitHub.
 
