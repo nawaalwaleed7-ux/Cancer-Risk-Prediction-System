@@ -21,6 +21,32 @@ This project is a machine learning-based web application that predicts a patient
 - Logistic Regression
 - Random Forest
 - Support Vector Machine (SVM)
+## structure
+Cancer-Risk-Prediction-System
+│
+├── app.py
+├── README.md
+├── requirements.txt
+│
+├── models/
+│   ├── logistic_regression.pkl
+│   ├── random_forest.pkl
+│   ├── svm.pkl
+│   └── preprocessor.pkl
+│
+├── data/
+│   └── cancer_risk_dataset.csv
+│
+├── outputs/
+│   ├── Logistic_Regression_CM.png
+│   ├── Random_Forest_CM.png
+│   ├── SVM_CM.png
+│   └── model_accuracy.png
+│
+└── src/
+    ├── eda.py
+    ├── train_model.py
+    └── check_values.py
 
 ## How to Run
 
